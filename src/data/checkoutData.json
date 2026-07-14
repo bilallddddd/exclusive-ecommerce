@@ -1,0 +1,22 @@
+{
+  "checkoutData1": [
+    {
+      "name": "HI Gamepad",
+      "price": 0,
+      "img": "/assets/Gamepad.png",
+      "alt": "Hi Gamepad",
+      "className": "game",
+      "id": 1
+    }
+  ],
+  "checkoutData2": [
+    {
+      "name": "LCD Monitor",
+      "price": 0,
+      "img": "/assets/Monitor.png",
+      "alt": "LCD Monitor",
+      "className": "monitor",
+      "id": 2
+    }
+  ]
+}

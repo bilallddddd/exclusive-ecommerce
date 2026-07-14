@@ -1,0 +1,9 @@
+#category-p .category-icon {
+  filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(7474%)
+    hue-rotate(154deg) brightness(101%) contrast(106%);
+}
+
+#category-p:hover .category-icon {
+  filter: brightness(0) saturate(100%) invert(99%) sepia(64%) saturate(239%)
+    hue-rotate(280deg) brightness(119%) contrast(100%);
+}

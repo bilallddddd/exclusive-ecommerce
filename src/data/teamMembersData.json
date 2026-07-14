@@ -1,0 +1,76 @@
+{
+  "teamMembers": [
+    {
+      "name": "bilal htiti",
+      "role": "etudiant",
+      "img": "undefined.png",
+      "alt": "a picture of bilal htiti",
+      "id": 1,
+      "socialMedia": {
+        "twitter": "",
+        "instagram": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "name": "bilal htiti",
+      "role": "etudiant",
+      "img": "undefined.png",
+      "alt": "a picture of bilal htiti",
+      "id": 2,
+      "socialMedia": {
+        "twitter": "",
+        "instagram": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "name": "bilal htiti",
+      "role": "etudiant",
+      "img": "undefined.png",
+      "alt": "a picture of bilal htiti",
+      "id": 3,
+      "socialMedia": {
+        "twitter": "",
+        "instagram": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "name": "bilal htiti",
+      "role": "etudiant",
+      "img": "undefined.png",
+      "alt": "a picture of bilal htiti",
+      "id": 4,
+      "socialMedia": {
+        "twitter": "",
+        "instagram": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "name": "bilal htiti",
+      "role": "etudiant",
+      "img": "undefined.png",
+      "alt": "a picture of bilal htiti",
+      "id": 5,
+      "socialMedia": {
+        "twitter": "",
+        "instagram": "",
+        "linkedIn": ""
+      }
+    },
+    {
+      "name": "bilal htiti",
+      "role": "etudiant",
+      "img": "undefined.png",
+      "alt": "a picture of bilal htiti",
+      "id": 6,
+      "socialMedia": {
+        "twitter": "",
+        "instagram": "",
+        "linkedIn": ""
+      }
+    }
+  ]
+}
