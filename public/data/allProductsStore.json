@@ -3,8 +3,8 @@
     {
       "id": "bs1",
       "name": "The north coat",
-      "price": 0,
-      "discount-price": 0,
+      "price": 360,
+      "discount-price": 260,
       "img": "/best-selling-img/coat.svg",
       "alt": "game pad",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas explicabo laborum ducimus error? Quo non quam recusandae. Molestiae alias vel culpa ad dicta unde fugit commodi! Perferendis maxime repudiandae nemo.",
@@ -14,8 +14,8 @@
     {
       "id": "bs2",
       "name": "Gucci duffle bag",
-      "price": 0,
-      "discount-price": 0,
+      "price": 1160,
+      "discount-price": 960,
       "img": "/best-selling-img/duffle-bag.svg",
       "alt": "keyboard",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas explicabo laborum ducimus error? Quo non quam recusandae. Molestiae alias vel culpa ad dicta unde fugit commodi! Perferendis maxime repudiandae nemo.",
@@ -25,8 +25,8 @@
     {
       "id": "bs3",
       "name": "IPS LCD Gaming Monitor",
-      "price": 0,
-      "discount-price": 0,
+      "price": 400,
+      "discount-price": 370,
       "img": "/flash-sales-img/monitor.png",
       "alt": "monitor",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas explicabo laborum ducimus error? Quo non quam recusandae. Molestiae alias vel culpa ad dicta unde fugit commodi! Perferendis maxime repudiandae nemo.",
@@ -36,8 +36,8 @@
     {
       "id": "bs4",
       "name": "RGB liquid CPU Cooler",
-      "price": 0,
-      "discount-price": 0,
+      "price": 170,
+      "discount-price": 160,
       "img": "/best-selling-img/cpu-cooler.svg",
       "alt": "chair",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas explicabo laborum ducimus error? Quo non quam recusandae. Molestiae alias vel culpa ad dicta unde fugit commodi! Perferendis maxime repudiandae nemo.",
@@ -47,8 +47,8 @@
     {
       "id": "bs5",
       "name": "Small BookSelf",
-      "price": 0,
-      "discount-price": 0,
+      "price": 140,
+      "discount-price": 140,
       "img": "/best-selling-img/bookshelf.svg",
       "alt": "jacket",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas explicabo laborum ducimus error? Quo non quam recusandae. Molestiae alias vel culpa ad dicta unde fugit commodi! Perferendis maxime repudiandae nemo.",
@@ -58,8 +58,8 @@
     {
       "id": "bs6",
       "name": "ASUS FHD Gaming Laptop",
-      "price": 0,
-      "discount-price": 0,
+      "price": 1200,
+      "discount-price": 960,
       "img": "/flash-sales-img/laptop.png",
       "alt": "laptop",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas explicabo laborum ducimus error? Quo non quam recusandae. Molestiae alias vel culpa ad dicta unde fugit commodi! Perferendis maxime repudiandae nemo.",
@@ -69,7 +69,7 @@
     {
       "id": "explr1",
       "name": "Breed Dry Dog Food",
-      "price": 0,
+      "price": 100,
       "new": "new",
       "img": "/explore-products-img/dog-food.svg",
       "alt": "dog food",
@@ -80,7 +80,7 @@
     {
       "id": "explr2",
       "name": "GP11 Shooter USB Gamepad",
-      "price": 0,
+      "price": 660,
       "new": "new",
       "img": "/explore-products-img/game-pad-b.svg",
       "alt": "game pad",
@@ -91,7 +91,7 @@
     {
       "id": "explr3",
       "name": "CANON EOS DSLR Camera",
-      "price": 0,
+      "price": 360,
       "img": "/explore-products-img/camera.svg",
       "alt": "keyboard",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas explicabo laborum ducimus error? Quo non quam recusandae. Molestiae alias vel culpa ad dicta unde fugit commodi! Perferendis maxime repudiandae nemo.",
@@ -101,7 +101,7 @@
     {
       "id": "explr4",
       "name": "Curology Product Set ",
-      "price": 0,
+      "price": 500,
       "new": "new",
       "img": "/explore-products-img/product-set.svg",
       "alt": "keyboard",
@@ -112,7 +112,7 @@
     {
       "id": "explr5",
       "name": "IPS LCD Gaming Monitor",
-      "price": 0,
+      "price": 400,
       "img": "/flash-sales-img/monitor.png",
       "alt": "monitor",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas explicabo laborum ducimus error? Quo non quam recusandae. Molestiae alias vel culpa ad dicta unde fugit commodi! Perferendis maxime repudiandae nemo.",
@@ -122,7 +122,7 @@
     {
       "id": "explr6",
       "name": "S-Series Comfort Chair",
-      "price": 0,
+      "price": 400,
       "img": "/flash-sales-img/chair.png",
       "alt": "chair",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas explicabo laborum ducimus error? Quo non quam recusandae. Molestiae alias vel culpa ad dicta unde fugit commodi! Perferendis maxime repudiandae nemo.",
@@ -132,7 +132,7 @@
     {
       "id": "explr7",
       "name": "Kids Electric Car",
-      "price": 0,
+      "price": 960,
       "img": "/explore-products-img/car.svg",
       "alt": "chair",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas explicabo laborum ducimus error? Quo non quam recusandae. Molestiae alias vel culpa ad dicta unde fugit commodi! Perferendis maxime repudiandae nemo.",
@@ -142,7 +142,7 @@
     {
       "id": "explr8",
       "name": "Quilted Satin Jacket",
-      "price": 0,
+      "price": 800,
       "img": "/flash-sales-img/jacket.png",
       "alt": "jacket",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas explicabo laborum ducimus error? Quo non quam recusandae. Molestiae alias vel culpa ad dicta unde fugit commodi! Perferendis maxime repudiandae nemo.",
@@ -152,7 +152,7 @@
     {
       "id": "explr9",
       "name": "Jr. Zoom Soccer Cleats",
-      "price": 0,
+      "price": 116,
       "new": "new",
       "img": "/explore-products-img/football-boots.svg",
       "alt": "game pad",
@@ -163,7 +163,7 @@
     {
       "id": "explr10",
       "name": "HAVIT HV-G92 Gamepad",
-      "price": 0,
+      "price": 160,
       "new": "new",
       "img": "/flash-sales-img/game-pad.png",
       "alt": "game pad",
@@ -174,7 +174,7 @@
     {
       "id": "explr11",
       "name": "AK-900 Wired Keyboard",
-      "price": 0,
+      "price": 40,
       "new": "new",
       "img": "/flash-sales-img/keyboard.png",
       "alt": "keyboard",
@@ -185,7 +185,7 @@
     {
       "id": "explr12",
       "name": "ASUS FHD Gaming Laptop",
-      "price": 0,
+      "price": 1200,
       "img": "/flash-sales-img/laptop.png",
       "alt": "laptop",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas explicabo laborum ducimus error? Quo non quam recusandae. Molestiae alias vel culpa ad dicta unde fugit commodi! Perferendis maxime repudiandae nemo.",
@@ -195,8 +195,8 @@
     {
       "id": "flsp1",
       "name": "HAVIT HV-G92 Gamepad",
-      "price": 0,
-      "discount-price": 0,
+      "price": 160,
+      "discount-price": 120,
       "discount-percentage": "40%",
       "img": "/flash-sales-img/game-pad.png",
       "alt": "game pad",
@@ -207,8 +207,8 @@
     {
       "id": "flsp2",
       "name": "AK-900 Wired Keyboard",
-      "price": 0,
-      "discount-price": 0,
+      "price": 40,
+      "discount-price": 35,
       "discount-percentage": "35%",
       "img": "/flash-sales-img/keyboard.png",
       "alt": "keyboard",
@@ -219,8 +219,8 @@
     {
       "id": "flsp3",
       "name": "IPS LCD Gaming Monitor",
-      "price": 0,
-      "discount-price": 0,
+      "price": 400,
+      "discount-price": 370,
       "discount-percentage": "50%",
       "img": "/flash-sales-img/monitor.png",
       "alt": "monitor",
@@ -231,8 +231,8 @@
     {
       "id": "flsp4",
       "name": "S-Series Comfort Chair",
-      "price": 0,
-      "discount-price": 0,
+      "price": 400,
+      "discount-price": 375,
       "discount-percentage": "40%",
       "img": "/flash-sales-img/chair.png",
       "alt": "chair",
@@ -243,8 +243,8 @@
     {
       "id": "flsp5",
       "name": "Quilted Satin Jacket",
-      "price": 0,
-      "discount-price": 0,
+      "price": 800,
+      "discount-price": 600,
       "discount-percentage": "42%",
       "img": "/flash-sales-img/jacket.png",
       "alt": "jacket",
@@ -255,8 +255,8 @@
     {
       "id": "flsp6",
       "name": "ASUS FHD Gaming Laptop",
-      "price": 0,
-      "discount-price": 0,
+      "price": 1200,
+      "discount-price": 960,
       "discount-percentage": "20%",
       "img": "/flash-sales-img/laptop.png",
       "alt": "laptop",
@@ -267,8 +267,8 @@
     {
       "id": "jstfy1",
       "name": "ASUS FHD Gaming Laptop",
-      "price": 0,
-      "discount-price": 0,
+      "price": 1200,
+      "discount-price": 960,
       "discount-percentage": "20%",
       "img": "/flash-sales-img/laptop.png",
       "alt": "laptop",
@@ -279,8 +279,8 @@
     {
       "id": "jstfy2",
       "name": "IPS LCD Gaming Monitor",
-      "price": 0,
-      "discount-price": 0,
+      "price": 400,
+      "discount-price": 370,
       "discount-percentage": "50%",
       "img": "/flash-sales-img/monitor.png",
       "alt": "monitor",
@@ -291,8 +291,8 @@
     {
       "id": "jstfy3",
       "name": "HAVIT HV-G92 Gamepad",
-      "price": 0,
-      "discount-price": 0,
+      "price": 160,
+      "discount-price": 120,
       "discount-percentage": "40%",
       "img": "/flash-sales-img/game-pad.png",
       "alt": "game pad",
@@ -303,8 +303,8 @@
     {
       "id": "jstfy4",
       "name": "AK-900 Wired Keyboard",
-      "price": 0,
-      "discount-price": 0,
+      "price": 40,
+      "discount-price": 35,
       "discount-percentage": "35%",
       "img": "/flash-sales-img/keyboard.png",
       "alt": "keyboard",

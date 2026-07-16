@@ -3,7 +3,7 @@
     {
       "id": "explr1",
       "name": "Breed Dry Dog Food",
-      "price": 0,
+      "price": 100,
       "new": "new",
       "img": "/explore-products-img/dog-food.svg",
       "alt": "dog food",
@@ -13,7 +13,7 @@
     {
       "id": "explr2",
       "name": "GP11 Shooter USB Gamepad",
-      "price": 0,
+      "price": 660,
       "new": "new",
       "img": "/explore-products-img/game-pad-b.svg",
       "alt": "game pad",
@@ -23,7 +23,7 @@
     {
       "id": "explr3",
       "name": "CANON EOS DSLR Camera",
-      "price": 0,
+      "price": 360,
       "img": "/explore-products-img/camera.svg",
       "alt": "keyboard",
       "stars": 5,
@@ -32,7 +32,7 @@
     {
       "id": "explr4",
       "name": "Curology Product Set ",
-      "price": 0,
+      "price": 500,
       "new": "new",
       "img": "/explore-products-img/product-set.svg",
       "alt": "keyboard",
@@ -42,7 +42,7 @@
     {
       "id": "explr5",
       "name": "IPS LCD Gaming Monitor",
-      "price": 0,
+      "price": 400,
       "img": "/flash-sales-img/monitor.png",
       "alt": "monitor",
       "stars": 5,
@@ -51,7 +51,7 @@
     {
       "id": "explr6",
       "name": "S-Series Comfort Chair",
-      "price": 0,
+      "price": 400,
       "img": "/flash-sales-img/chair.png",
       "alt": "chair",
       "stars": 5,
@@ -60,7 +60,7 @@
     {
       "id": "explr7",
       "name": "Kids Electric Car",
-      "price": 0,
+      "price": 960,
       "img": "/explore-products-img/car.svg",
       "alt": "chair",
       "stars": 5,
@@ -69,7 +69,7 @@
     {
       "id": "explr8",
       "name": "Quilted Satin Jacket",
-      "price": 0,
+      "price": 800,
       "img": "/flash-sales-img/jacket.png",
       "alt": "jacket",
       "stars": 3.8,
@@ -78,7 +78,7 @@
     {
       "id": "explr9",
       "name": "Jr. Zoom Soccer Cleats",
-      "price": 0,
+      "price": 116,
       "new": "new",
       "img": "/explore-products-img/football-boots.svg",
       "alt": "game pad",
@@ -88,7 +88,7 @@
     {
       "id": "explr10",
       "name": "HAVIT HV-G92 Gamepad",
-      "price": 0,
+      "price": 160,
       "new": "new",
       "img": "/flash-sales-img/game-pad.png",
       "alt": "game pad",
@@ -98,7 +98,7 @@
     {
       "id": "explr11",
       "name": "AK-900 Wired Keyboard",
-      "price": 0,
+      "price": 40,
       "new": "new",
       "img": "/flash-sales-img/keyboard.png",
       "alt": "keyboard",
@@ -108,7 +108,7 @@
     {
       "id": "explr12",
       "name": "ASUS FHD Gaming Laptop",
-      "price": 0,
+      "price": 1200,
       "img": "/flash-sales-img/laptop.png",
       "alt": "laptop",
       "stars": 5,
