@@ -2,29 +2,29 @@
   "wishlistProducts": [
     {
       "name": "Gucci dufflebag",
-      "price": 0,
-      "discount-price": 0,
+      "price": 1160,
+      "discount-price": 960,
       "img": "public/wishlist-img/Gucci-duffle-bag.png",
       "alt": "dufflebag"
     },
     {
       "name": "RGB liquid CPU Cooler",
-      "discount-price": 0,
-      "price": 0,
+      "discount-price": 160,
+      "price": 170,
       "img": "wishlist-img/CPU-Cooler.png",
       "alt": "CPU Cooler"
     },
     {
       "name": "GP11 Shooter USB Gamepad",
-      "price": 0,
-      "discount-price": 0,
+      "price": 660,
+      "discount-price": 600,
       "img": "/wishlist-img/GP11_PRD3 1.png",
       "alt": "game pad"
     },
     {
       "name": "Quilted Satin Jacket",
-      "price": 0,
-      "discount-price": 0,
+      "price": 800,
+      "discount-price": 600,
       "img": "/flash-sales-img/jacket.png",
       "alt": "jacket"
     }

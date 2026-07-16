@@ -3,13 +3,28 @@ import { Snackbar, SnackbarContent } from '@mui/material';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import DeleteIcon from '@mui/icons-material/Delete';
 import { green, red } from '@mui/material/colors';
+import { allProductsStore } from "../data/allProductsStore.json";
 
 export const CartContext = createContext();
 
 export const CartProvider = ({ children }) => {
-  const [cartItems, setCartItems] = useState(
-    localStorage.getItem('cartItems') ? JSON.parse(localStorage.getItem('cartItems')) : []
-  );
+  const [cartItems, setCartItems] = useState(() => {
+    const stored = localStorage.getItem('cartItems');
+    const items = stored ? JSON.parse(stored) : [];
+    
+    // Automatically correct and update prices of existing items in the cart
+    return items.map((item) => {
+      const matched = allProductsStore.find((p) => p.id === item.id);
+      if (matched) {
+        const activePrice = (matched["discount-price"] !== undefined && matched["discount-price"] !== 0)
+          ? matched["discount-price"]
+          : matched.price;
+        return { ...item, price: activePrice || item.price };
+      }
+      return item;
+    });
+  });
+
   const [modalState, setModalState] = useState({
     open: false,
     vertical: 'bottom',
@@ -17,26 +32,38 @@ export const CartProvider = ({ children }) => {
     messageType: 'add',
   });
 
-  const addToCart = (item) => {
+  const addToCart = (item, silent = false) => {
+    // Resolve active price
+    const matched = allProductsStore.find((p) => p.id === item.id) || item;
+    const activePrice = (matched["discount-price"] !== undefined && matched["discount-price"] !== 0)
+      ? matched["discount-price"]
+      : (matched.price || item.price);
+
     const isItemInCart = cartItems.find((cartItem) => cartItem.id === item.id);
     if (isItemInCart) {
       setCartItems(
         cartItems.map((cartItem) =>
-          cartItem.id === item.id ? { ...cartItem, quantity: cartItem.quantity + 1 } : cartItem
+          cartItem.id === item.id 
+            ? { ...cartItem, price: activePrice, quantity: cartItem.quantity + 1 } 
+            : cartItem
         )
       );
     } else {
-      setCartItems([...cartItems, { ...item, quantity: 1 }]);
+      setCartItems([...cartItems, { ...item, price: activePrice, quantity: 1 }]);
     }
-    setModalState({ ...modalState, open: true, messageType: 'add' });
+    if (!silent) {
+      setModalState({ ...modalState, open: true, messageType: 'add' });
+    }
   };
 
-  const removeFromCart = (item) => {
+  const removeFromCart = (item, silent = false) => {
     const updatedCartItems = cartItems.map((cartItem) =>
       cartItem.id === item.id ? { ...cartItem, quantity: cartItem.quantity - 1 } : cartItem
     );
     setCartItems(updatedCartItems.filter((cartItem) => cartItem.quantity > 0));
-    setModalState({ ...modalState, open: true, messageType: 'delete' });
+    if (!silent) {
+      setModalState({ ...modalState, open: true, messageType: 'delete' });
+    }
   };
 
   const removeItemFromCart = (item) => {

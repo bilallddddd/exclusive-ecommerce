@@ -86,7 +86,7 @@ export default function Cart() {
               <div className="flex items-center gap-1 md:gap-2 min-w-[20%] max-w-[80%]">
                 <button
                   className="flex items-center justify-center w-8 h-8 border rounded-md border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50"
-                  onClick={() => removeFromCart(product)}
+                  onClick={() => removeFromCart(product, true)}
                 >
                   <svg
                     className="w-4 h-4"
@@ -109,7 +109,7 @@ export default function Cart() {
                 />
                 <button
                   className="flex items-center justify-center w-8 h-8 border rounded-md border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50"
-                  onClick={() => addToCart(product)}
+                  onClick={() => addToCart(product, true)}
                 >
                   <svg
                     className="w-4 h-4"

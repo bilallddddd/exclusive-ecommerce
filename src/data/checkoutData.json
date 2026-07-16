@@ -2,7 +2,7 @@
   "checkoutData1": [
     {
       "name": "HI Gamepad",
-      "price": 0,
+      "price": 160,
       "img": "/assets/Gamepad.png",
       "alt": "Hi Gamepad",
       "className": "game",
@@ -12,7 +12,7 @@
   "checkoutData2": [
     {
       "name": "LCD Monitor",
-      "price": 0,
+      "price": 400,
       "img": "/assets/Monitor.png",
       "alt": "LCD Monitor",
       "className": "monitor",

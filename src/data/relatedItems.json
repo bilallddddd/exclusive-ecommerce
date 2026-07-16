@@ -3,8 +3,8 @@
     {
       "id": "it1",
       "name": "HAVIT HV-G92 Gamepad",
-      "price": 0,
-      "discount-price": 0,
+      "price": 160,
+      "discount-price": 120,
       "img": "/flash-sales-img/game-pad.png",
       "alt": "game pad",
       "stars": 5,
@@ -13,8 +13,8 @@
     {
       "id": "it2",
       "name": "AK-900 Wired Keyboard",
-      "price": 0,
-      "discount-price": 0,
+      "price": 40,
+      "discount-price": 35,
       "img": "/flash-sales-img/keyboard.png",
       "alt": "keyboard",
       "stars": 5,
@@ -23,8 +23,8 @@
     {
       "id": "it3",
       "name": "IPS LCD Gaming Monitor",
-      "price": 0,
-      "discount-price": 0,
+      "price": 400,
+      "discount-price": 370,
       "img": "/flash-sales-img/monitor.png",
       "alt": "monitor",
       "stars": 4.5,
@@ -33,8 +33,8 @@
     {
       "id": "it4",
       "name": "RGB liquid CPU Cooler",
-      "price": 0,
-      "discount-price": 0,
+      "price": 170,
+      "discount-price": 160,
       "img": "/best-selling-img/cpu-cooler.svg",
       "alt": "chair",
       "stars": 5,
